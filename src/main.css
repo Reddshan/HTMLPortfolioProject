@@ -1,0 +1,83 @@
+html,body,p,div,h1,h2,h3,h4,ul,li,ol{
+	padding: 0;
+	border:0;
+	margin: 0;
+	font: inherit;
+	font-size: 100%;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+h1{
+	font-size: 70px;
+	font-weight: bold;
+	text-align:center;
+
+}
+h2{
+	font-size:30px;
+	font-weight: 50;
+	text-align: center;
+	color:#ffffff;
+	width:700px;
+	margin:0 auto 0 auto;
+} 
+h2 strong{
+	
+	font-weight: 600;
+
+}
+h3{
+	font-size:28px;
+	font-weight: 400;
+	border-bottom: 1px solid #444444;
+	text-align: center;
+	margin:20px 0 20px 0;
+}
+p{	
+	font-size: 18px;
+
+}
+a{
+	font-size: 16px;
+	font-weight:bold;
+	text-decoration:none;
+	color:#000000;
+}
+a:hover{
+	color:#00FFFF;
+	text-decoration: underline;
+}
+.header{
+	background: #A19999;
+}
+.tagline{
+	background: #000000;
+	padding: 30px 0 30px 0;
+}
+.projects, .Badges,.learningarticles,.Skills{
+		width:700px;
+	   margin: 0 auto 0 auto;
+
+}
+.projects ul ,.Badges ul,.learningarticles ul,.Skills ul {	
+	list-style-type:none; 
+}
+.projects li, .Badges li,.learningarticles li,.Skills li{
+	margin-bottom: 20px;
+}
+.Badges li img{
+	float:left;
+	padding-right:10px;
+}
+.Skills li{
+
+	background: #444444;
+	color:#cccccc;
+	font-weight: bold;
+	display:inline-block;
+	padding: 8px 8px 8px 8px;
+}	
+.contactme{
+	text-align:center;
+	background: #999999;
+	padding:20px 0 20px 0;
+}
